@@ -1,6 +1,6 @@
-    function toggler(divId) {
-        $("#hidden").toggle();
-}
+    function func(){
+    $('#hidden').removeClass("d-none");
+    }
 
     function iniciarGrafico(superhero){
         const superheroData =[]
@@ -82,6 +82,3 @@ $('#superhero-form').on('submit', function(ev) {
     iniciarGrafico(superhero);    
     });
   });
-
-
-  
